@@ -1,0 +1,9 @@
+project: savantenvs/datafusion-sqlparser-rs
+target: fuzz_parse_sql_roundtrip
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_parse_sql_roundtrip/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_parse_sql_roundtrip
+    libfuzzer: true
+    dictionary: /mayhem/fuzz_parse_sql_roundtrip.dict

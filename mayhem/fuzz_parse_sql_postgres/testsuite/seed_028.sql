@@ -1,0 +1,1 @@
+CREATE TABLE NOT EXISTS uk_cities ()

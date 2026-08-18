@@ -1,0 +1,9 @@
+project: savantenvs/datafusion-sqlparser-rs
+target: fuzz_parse_sql_postgres
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_parse_sql_postgres/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_parse_sql_postgres
+    libfuzzer: true
+    dictionary: /mayhem/fuzz_parse_sql_postgres.dict

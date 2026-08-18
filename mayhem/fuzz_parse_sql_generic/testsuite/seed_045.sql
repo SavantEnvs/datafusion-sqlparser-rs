@@ -1,0 +1,1 @@
+GRANT USAGE ON FUNCTION db1.sc1.foo(INT) TO ROLE role1

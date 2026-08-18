@@ -1,0 +1,1 @@
+SELECT f FROM foo WHERE field IS FALSE

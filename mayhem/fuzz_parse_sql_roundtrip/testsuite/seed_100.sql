@@ -1,0 +1,1 @@
+CREATE EXTERNAL TABLE dataset_id.table1 (hvr_tx_seq STRING) OPTIONS(format = 'CSV')

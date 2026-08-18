@@ -1,0 +1,1 @@
+SELECT * FROM src[0].a AS a

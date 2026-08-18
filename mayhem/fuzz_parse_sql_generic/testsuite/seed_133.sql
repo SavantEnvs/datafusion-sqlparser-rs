@@ -1,0 +1,1 @@
+SELECT * FROM T OFFSET 5 BY foo

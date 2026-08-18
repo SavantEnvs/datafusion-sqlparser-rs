@@ -1,0 +1,1 @@
+CREATE TYPE empty AS ()

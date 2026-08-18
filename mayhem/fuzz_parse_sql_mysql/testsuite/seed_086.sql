@@ -1,0 +1,1 @@
+UPDATE account SET balance=balance--1 WHERE account_id=5752

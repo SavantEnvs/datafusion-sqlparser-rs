@@ -1,0 +1,1 @@
+ALTER TEXT SEARCH PARSER p (opt = val)

@@ -1,0 +1,1 @@
+SELECT STRUCT(STRUCT(1 AS a, NULL AS b) AS c, NULL AS d).c.a

@@ -1,0 +1,1 @@
+SELECT * FROM tbl |> UNION ALL (SELECT * FROM admins)

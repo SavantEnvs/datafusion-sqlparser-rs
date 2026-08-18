@@ -1,0 +1,1 @@
+GROUP_CONCAT(test_score SEPARATOR ' ')

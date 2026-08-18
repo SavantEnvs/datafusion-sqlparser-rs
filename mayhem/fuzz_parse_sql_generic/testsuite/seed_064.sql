@@ -1,0 +1,1 @@
+COMMENT ON COLUMN tab.name IS 'comment'

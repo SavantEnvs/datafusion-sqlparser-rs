@@ -1,0 +1,1 @@
+ALTER TABLE tab ENABLE ALWAYS RULE rule_name

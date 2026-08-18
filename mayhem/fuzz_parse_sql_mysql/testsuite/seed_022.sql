@@ -1,0 +1,1 @@
+SET sql_mode = CONCAT(@@sql_mode, ',STRICT_TRANS_TABLES')

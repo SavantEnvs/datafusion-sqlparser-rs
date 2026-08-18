@@ -1,0 +1,1 @@
+SELECT id, fname, lname FROM customer LIMIT 10 OFFSET 5

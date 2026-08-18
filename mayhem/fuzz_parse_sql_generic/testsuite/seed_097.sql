@@ -1,0 +1,1 @@
+SELECT * FROM source TABLESAMPLE (100M) AS s

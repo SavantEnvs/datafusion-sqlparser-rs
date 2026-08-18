@@ -1,0 +1,1 @@
+UPDATE x SET (a, b) = (1, 2)

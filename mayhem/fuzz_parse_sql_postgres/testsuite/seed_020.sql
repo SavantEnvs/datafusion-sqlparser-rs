@@ -1,0 +1,1 @@
+DROP EXTENSION IF EXISTS extension_name1, extension_name2 RESTRICT

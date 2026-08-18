@@ -1,0 +1,1 @@
+SELECT ALL DISTINCT ON(name) name FROM customer

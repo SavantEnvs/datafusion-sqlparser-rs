@@ -1,0 +1,1 @@
+CREATE TEXT SEARCH TEMPLATE t (lexize = dsimple_lexize)

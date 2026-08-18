@@ -1,0 +1,1 @@
+CREATE INDEX idx_index ON t((col COLLATE utf8mb4_bin) DESC)

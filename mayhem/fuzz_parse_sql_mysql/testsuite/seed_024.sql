@@ -1,0 +1,1 @@
+CREATE TABLE foo (x INT KEY)

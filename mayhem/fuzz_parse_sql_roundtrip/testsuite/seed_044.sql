@@ -1,0 +1,1 @@
+GRANT SELECT ON VIEW view1 TO ROLE role1

@@ -1,0 +1,1 @@
+SHOW GLOBAL STATUS LIKE 'ssl_cipher'

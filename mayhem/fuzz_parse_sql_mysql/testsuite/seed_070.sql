@@ -1,0 +1,1 @@
+SELECT _utf8mb4'abc'

@@ -1,0 +1,1 @@
+CREATE TABLE IDENTIFIER('tbl') (id INT)

@@ -1,0 +1,4 @@
+# Local cargo build artifacts for the additive mayhem/fuzz and mayhem/kat
+# crates — never commit these; build.sh regenerates them every build.
+fuzz/target/
+kat/target/

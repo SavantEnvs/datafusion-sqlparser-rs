@@ -1,0 +1,1 @@
+CREATE INDEX zips ON customers((CAST(custinfo -> '$.zipcode' AS UNSIGNED ARRAY)))

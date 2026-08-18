@@ -1,0 +1,1 @@
+SELECT t.15to29 FROM my_table AS t

@@ -1,0 +1,9 @@
+project: savantenvs/datafusion-sqlparser-rs
+target: fuzz_parse_sql_generic
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_parse_sql_generic/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_parse_sql_generic
+    libfuzzer: true
+    dictionary: /mayhem/fuzz_parse_sql_generic.dict

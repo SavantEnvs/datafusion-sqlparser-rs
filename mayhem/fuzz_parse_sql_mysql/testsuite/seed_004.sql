@@ -1,0 +1,1 @@
+FLUSH TABLES `mek`.`table1`, table2

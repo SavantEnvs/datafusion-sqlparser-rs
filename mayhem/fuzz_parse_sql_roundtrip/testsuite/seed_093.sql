@@ -1,0 +1,1 @@
+COPY dst (c1, c2, c3) FROM 's3://redshift-downloads/tickit/category_pipe.txt' IAM_ROLE DEFAULT CSV IGNOREHEADER AS 1

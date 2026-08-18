@@ -1,0 +1,1 @@
+SELECT SQL_BIG_RESULT * FROM employees

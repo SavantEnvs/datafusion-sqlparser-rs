@@ -1,0 +1,1 @@
+CREATE TABLE tb (id INT, key index (id))

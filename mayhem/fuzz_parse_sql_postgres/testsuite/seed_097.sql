@@ -1,0 +1,1 @@
+ALTER TEXT SEARCH DICTIONARY d (opt = val)

@@ -1,0 +1,1 @@
+LOCK TABLES trans t READ, customer WRITE

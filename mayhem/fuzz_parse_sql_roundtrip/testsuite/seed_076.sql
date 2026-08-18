@@ -1,0 +1,1 @@
+SELECT * FROM tbl |> UNPIVOT(score FOR subject IN (math, science, english, history))

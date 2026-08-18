@@ -1,0 +1,1 @@
+SELECT * FROM users |> UNPIVOT(FOR name IN (col1, col2))

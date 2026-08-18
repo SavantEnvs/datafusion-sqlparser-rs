@@ -1,0 +1,1 @@
+SELECT STRAIGHT_JOIN * FROM employees e JOIN dept_emp d ON e.emp_no = d.emp_no WHERE d.emp_no = 10001

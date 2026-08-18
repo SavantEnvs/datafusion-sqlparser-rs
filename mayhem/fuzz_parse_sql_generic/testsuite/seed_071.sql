@@ -1,0 +1,1 @@
+SELECT * FROM tbl |> AGGREGATE GROUP BY a, b

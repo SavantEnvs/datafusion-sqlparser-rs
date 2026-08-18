@@ -1,0 +1,1 @@
+SELECT XMLFOREST(a AS x, b)

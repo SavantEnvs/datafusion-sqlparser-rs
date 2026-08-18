@@ -1,0 +1,1 @@
+SELECT foo::INTEGER ARRAY[3]

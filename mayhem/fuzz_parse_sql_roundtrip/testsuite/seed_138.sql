@@ -1,0 +1,1 @@
+OPTIMIZE catalog.db.my_table

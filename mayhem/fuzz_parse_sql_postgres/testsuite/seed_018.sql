@@ -1,0 +1,1 @@
+DROP EXTENSION extension_name, extension_name2 CASCADE

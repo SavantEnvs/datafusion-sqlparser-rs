@@ -1,0 +1,1 @@
+SELECT AS VALUE STRUCT(1 AS a, 2 AS b) AS xyz

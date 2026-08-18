@@ -1,0 +1,1 @@
+SELECT SUBSTR('foo', 1, 2) FROM t

@@ -1,0 +1,1 @@
+CREATE EXTENSION extension_name WITH SCHEMA schema_name CASCADE

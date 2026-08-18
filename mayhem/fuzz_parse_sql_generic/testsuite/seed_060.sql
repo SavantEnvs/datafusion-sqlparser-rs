@@ -1,0 +1,1 @@
+ALTER POLICY old_policy ON my_table TO public RENAME TO new_policy

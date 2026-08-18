@@ -1,0 +1,1 @@
+SELECT * ILIKE '%id%' EXCLUDE col FROM tbl

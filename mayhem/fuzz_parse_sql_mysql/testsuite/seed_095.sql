@@ -1,0 +1,1 @@
+SELECT HIGH_PRIORITY * FROM employees

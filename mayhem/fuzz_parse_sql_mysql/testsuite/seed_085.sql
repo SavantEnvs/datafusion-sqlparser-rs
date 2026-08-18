@@ -1,0 +1,1 @@
+CREATE TABLE foo (bar DOUBLE(11,0))

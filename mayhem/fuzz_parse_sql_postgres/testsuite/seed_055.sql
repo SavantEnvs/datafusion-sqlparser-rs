@@ -1,0 +1,1 @@
+FETCH PRIOR IN "SQL_CUR0x7fa44801bc00" INTO "new_table"

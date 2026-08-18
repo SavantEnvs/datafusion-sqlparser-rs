@@ -1,0 +1,1 @@
+ALTER AGGREGATE alt_func1(OUT INT) OWNER TO joe

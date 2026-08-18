@@ -1,0 +1,1 @@
+ALTER OPERATOR FAMILY my_ops USING btree ADD

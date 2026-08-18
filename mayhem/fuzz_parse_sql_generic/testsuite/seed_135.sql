@@ -1,0 +1,1 @@
+CREATE VIEW v (i "int", f "String") AS SELECT * FROM t

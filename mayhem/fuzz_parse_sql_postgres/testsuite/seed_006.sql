@@ -1,0 +1,1 @@
+CREATE TABLE t (id INT, payload TEXT, CONSTRAINT t_pk PRIMARY KEY (id) INCLUDE (payload))

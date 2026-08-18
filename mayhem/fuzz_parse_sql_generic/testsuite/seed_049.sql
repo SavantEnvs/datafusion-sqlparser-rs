@@ -1,0 +1,1 @@
+CACHE flag TABLE 'table_name' OPTIONS('K1'='V1') AS foo

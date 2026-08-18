@@ -1,0 +1,1 @@
+SELECT named_struct('x', a, 'y', b, 'z', c) FROM t

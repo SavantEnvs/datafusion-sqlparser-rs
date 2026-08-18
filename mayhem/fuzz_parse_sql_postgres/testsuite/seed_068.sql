@@ -1,0 +1,1 @@
+SELECT MAX(interval) FROM tbl

@@ -1,0 +1,1 @@
+ALTER OPERATOR CLASS int_ops RENAME TO integer_ops

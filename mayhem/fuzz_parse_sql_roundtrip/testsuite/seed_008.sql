@@ -1,0 +1,1 @@
+SELECT TRY_CAST(id AS NUMERIC) FROM customer

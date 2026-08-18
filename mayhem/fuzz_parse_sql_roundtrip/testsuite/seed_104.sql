@@ -1,0 +1,1 @@
+CREATE TABLE my_table (a number)  AGGREGATION POLICY policy_name

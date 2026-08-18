@@ -1,0 +1,1 @@
+GROUP_CONCAT(DISTINCT test_score)

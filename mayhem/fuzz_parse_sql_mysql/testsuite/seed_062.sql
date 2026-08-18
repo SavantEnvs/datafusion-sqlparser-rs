@@ -1,0 +1,1 @@
+CREATE TABLE tb (c1 INT, c2 INT, SPATIAL KEY potato (c1, c2))

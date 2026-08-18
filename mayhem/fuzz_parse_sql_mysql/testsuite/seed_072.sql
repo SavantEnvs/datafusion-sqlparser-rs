@@ -1,0 +1,1 @@
+SELECT CONVERT(my_column USING utf8mb4) FROM my_table

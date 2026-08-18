@@ -1,0 +1,1 @@
+CREATE POLICY my_policy ON my_table AS

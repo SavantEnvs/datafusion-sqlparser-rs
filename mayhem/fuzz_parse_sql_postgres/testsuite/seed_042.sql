@@ -1,0 +1,1 @@
+CREATE TABLE sal_emp (pay_by_quarter INTEGER ARRAY)

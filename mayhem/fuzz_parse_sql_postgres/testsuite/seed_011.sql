@@ -1,0 +1,1 @@
+ALTER TABLE tab ENABLE REPLICA RULE rule_name

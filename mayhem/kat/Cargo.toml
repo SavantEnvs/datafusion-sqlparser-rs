@@ -1,0 +1,16 @@
+[package]
+name = "mayhem-kat"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "kat"
+path = "main.rs"
+
+[dependencies.sqlparser]
+path = "../.."
+
+# Isolate from any parent workspace, same as mayhem/fuzz/Cargo.toml.
+[workspace]
+members = ["."]

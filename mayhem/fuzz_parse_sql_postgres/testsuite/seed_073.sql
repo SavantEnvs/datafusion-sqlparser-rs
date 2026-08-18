@@ -1,0 +1,1 @@
+ALTER SCHEMA foo RENAME TO bar

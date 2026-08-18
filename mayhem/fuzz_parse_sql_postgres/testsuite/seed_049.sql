@@ -1,0 +1,1 @@
+JSON_OBJECT('name' VALUE 'value')

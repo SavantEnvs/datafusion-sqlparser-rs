@@ -1,0 +1,1 @@
+SELECT stack(2, 'a', 'b') AS (col1, col2)

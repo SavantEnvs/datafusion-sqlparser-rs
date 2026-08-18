@@ -1,0 +1,1 @@
+LOCK TABLES trans AS t READ LOCAL, customer WRITE

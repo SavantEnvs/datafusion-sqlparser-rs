@@ -1,0 +1,1 @@
+CREATE TABLE t (a geometry SRID 4326)

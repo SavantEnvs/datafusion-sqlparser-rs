@@ -1,0 +1,1 @@
+SELECT * FROM email WHERE email MATCH 'fts5'

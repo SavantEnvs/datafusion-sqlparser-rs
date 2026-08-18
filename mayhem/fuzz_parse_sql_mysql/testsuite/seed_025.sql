@@ -1,0 +1,1 @@
+CREATE TABLE t1 (a INT, b INT AS (a * 2) VIRTUAL)

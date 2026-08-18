@@ -1,0 +1,1 @@
+TRUNCATE db.table_name

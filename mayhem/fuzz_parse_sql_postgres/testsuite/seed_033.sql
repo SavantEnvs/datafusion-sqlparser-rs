@@ -1,0 +1,1 @@
+COPY users FROM 'data.csv' BINARY DELIMITER ',' NULL 'null' CSV HEADER QUOTE '"' ESCAPE '\' FORCE NOT NULL column

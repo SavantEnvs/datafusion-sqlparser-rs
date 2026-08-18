@@ -1,0 +1,1 @@
+CREATE TABLE t (s STRUCT<name: STRING, age: INT, score: DOUBLE>) USING parquet

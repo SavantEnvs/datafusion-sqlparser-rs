@@ -1,0 +1,1 @@
+SELECT * FROM tb WHERE MATCH (c1, c2, c3) AGAINST ('string')

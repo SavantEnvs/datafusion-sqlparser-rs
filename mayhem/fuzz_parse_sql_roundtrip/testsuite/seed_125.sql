@@ -1,0 +1,1 @@
+SELECT c1 FROM fetch_test FETCH NEXT 2

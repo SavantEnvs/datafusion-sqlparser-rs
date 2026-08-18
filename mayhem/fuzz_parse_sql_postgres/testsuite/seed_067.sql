@@ -1,0 +1,1 @@
+CURRENT_TIMESTAMP AT TIME ZONE ('America/' || 'Los_Angeles')

@@ -1,0 +1,1 @@
+CREATE MULTISET TABLE foo (id INT)

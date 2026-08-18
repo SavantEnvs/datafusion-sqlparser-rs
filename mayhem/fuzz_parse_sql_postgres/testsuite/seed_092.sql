@@ -1,0 +1,1 @@
+ALTER OPERATOR CLASS int_ops USING btree RENAME TO integer_ops EXTRA

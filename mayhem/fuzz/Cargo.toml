@@ -1,0 +1,50 @@
+[package]
+name = "mayhem-fuzz"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+
+[dependencies.sqlparser]
+path = "../.."
+
+# Prevent this crate from interfering with (or being swept into) any workspace
+# the parent repo might declare. Upstream's own fuzz/Cargo.toml does the same.
+[workspace]
+members = ["."]
+
+[profile.release]
+debug = 1
+
+[[bin]]
+name = "fuzz_parse_sql_generic"
+path = "fuzz_targets/fuzz_parse_sql_generic.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "fuzz_parse_sql_postgres"
+path = "fuzz_targets/fuzz_parse_sql_postgres.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "fuzz_parse_sql_mysql"
+path = "fuzz_targets/fuzz_parse_sql_mysql.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "fuzz_parse_sql_roundtrip"
+path = "fuzz_targets/fuzz_parse_sql_roundtrip.rs"
+test = false
+doc = false
+bench = false
