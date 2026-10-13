@@ -1,0 +1,1 @@
+SELECT * EXCEPT (col_a) FROM data

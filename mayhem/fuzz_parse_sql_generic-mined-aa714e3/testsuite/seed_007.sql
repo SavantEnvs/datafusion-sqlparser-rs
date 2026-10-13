@@ -1,0 +1,1 @@
+SELECT id, fname, lname FROM customer GROUP BY (lname, fname)

@@ -1,0 +1,1 @@
+EXPLAIN ESTIMATE SELECT sqrt(id) FROM foo

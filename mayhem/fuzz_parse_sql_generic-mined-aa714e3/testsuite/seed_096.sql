@@ -1,0 +1,1 @@
+DESCRIBE EXTENDED test.table

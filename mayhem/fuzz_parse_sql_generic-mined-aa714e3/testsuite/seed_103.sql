@@ -1,0 +1,1 @@
+CREATE SNAPSHOT TABLE dataset_id.table1 CLONE dataset_id.table2

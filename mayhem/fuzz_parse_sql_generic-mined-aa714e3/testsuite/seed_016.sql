@@ -1,0 +1,1 @@
+ALTER TABLE tbl DROP COLUMN c1, c2, c3

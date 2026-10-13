@@ -1,0 +1,1 @@
+SELECT * FROM tbl |> LIMIT 10 |> LIMIT 5

@@ -1,0 +1,1 @@
+CREATE GLOBAL LOCAL TABLE my_table (a INT)

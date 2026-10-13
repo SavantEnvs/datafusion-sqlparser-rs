@@ -1,0 +1,1 @@
+SELECT x FROM t JOIN u ON t.id = u.id ARRAY JOIN arr AS x

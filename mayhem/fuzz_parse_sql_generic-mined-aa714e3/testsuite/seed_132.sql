@@ -1,0 +1,1 @@
+OPTIMIZE TABLE t0 ON CLUSTER 'cluster'

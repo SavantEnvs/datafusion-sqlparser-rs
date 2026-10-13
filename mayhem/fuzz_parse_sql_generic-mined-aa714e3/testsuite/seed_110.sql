@@ -1,0 +1,1 @@
+SELECT position FROM tbl1 WHERE position NOT IN ('first', 'last')

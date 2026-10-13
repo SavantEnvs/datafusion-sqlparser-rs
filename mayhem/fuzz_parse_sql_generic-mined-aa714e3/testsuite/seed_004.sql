@@ -1,0 +1,1 @@
+SELECT myfunc().* FROM T

@@ -1,0 +1,1 @@
+SELECT * EXCLUDE c1 FROM test
