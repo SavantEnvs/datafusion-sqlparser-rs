@@ -1,0 +1,1 @@
+UPDATE t1 FROM U, (SELECT id FROM V) AS W SET a = b WHERE 1 = 1

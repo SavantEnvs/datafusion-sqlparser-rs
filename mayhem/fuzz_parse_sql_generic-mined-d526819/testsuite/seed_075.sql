@@ -1,0 +1,1 @@
+SELECT * FROM tbl |> PIVOT(AVG(revenue) FOR region IN ('North', 'South', 'East', 'West'))

@@ -1,0 +1,10 @@
+project: savantenvs/datafusion-sqlparser-rs
+target: fuzz_parse_sql_generic-mined-d526819
+# seed-from: https://app.mayhem.security/savantenvs/datafusion-sqlparser-rs/fuzz-parse-sql-generic
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_parse_sql_generic-mined-d526819/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_parse_sql_generic
+    libfuzzer: true
+    dictionary: /mayhem/fuzz_parse_sql_generic.dict

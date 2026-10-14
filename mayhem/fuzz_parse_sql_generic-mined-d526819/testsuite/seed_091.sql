@@ -1,0 +1,1 @@
+CREATE SCHEMA a.b.c OPTIONS(key1 = 'value1', key2 = 'value2')

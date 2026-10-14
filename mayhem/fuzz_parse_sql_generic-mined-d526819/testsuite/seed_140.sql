@@ -1,0 +1,1 @@
+CREATE TABLE t (col1 STRUCT<field1 STRING, field2 INT>)

@@ -1,0 +1,1 @@
+SELECT 'foo' OFFSET 1 ROW

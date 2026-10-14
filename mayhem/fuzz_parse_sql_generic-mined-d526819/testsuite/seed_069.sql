@@ -1,0 +1,1 @@
+SELECT * FROM tbl |> SELECT id AS user_id

@@ -1,0 +1,1 @@
+SELECT * FROM tbl |> FULL JOIN orders ON users.id = orders.user_id

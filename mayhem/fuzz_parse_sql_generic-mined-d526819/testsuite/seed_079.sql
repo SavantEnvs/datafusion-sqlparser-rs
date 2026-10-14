@@ -1,0 +1,1 @@
+SELECT * FROM users |> CALL 123invalid

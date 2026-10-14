@@ -1,0 +1,1 @@
+ALTER CONNECTOR my_connector SET DCPROPERTIES('user' = 'root', 'password' = 'password')

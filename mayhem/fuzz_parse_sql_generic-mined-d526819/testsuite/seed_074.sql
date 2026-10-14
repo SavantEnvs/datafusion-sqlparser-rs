@@ -1,0 +1,1 @@
+SELECT * FROM tbl |> CALL analyze_data('param1', 100, true)

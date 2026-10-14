@@ -1,0 +1,1 @@
+USE SCHEMA my_schema

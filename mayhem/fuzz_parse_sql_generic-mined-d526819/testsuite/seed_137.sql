@@ -1,0 +1,1 @@
+SELECT STRUCT(1 AS one, 'foo' AS foo, false)
